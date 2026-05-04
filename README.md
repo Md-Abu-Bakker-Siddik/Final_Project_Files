@@ -1,13 +1,21 @@
 # Final Project Files
 
-This folder contains deliverables for a WordPress site built with **Elementor** and custom widgets from the **Six2Eight Elements** plugin.
+This folder contains deliverables for a WordPress site built with **Elementor**, the **Hello Elementor** theme, and **Six2eight Elements** — a plugin that registers the same features for **Elementor** and the **block editor (Gutenberg)**.
+
+## Demo (InstaWP)
+
+Reference build (temporary hosting, not for production traffic):
+
+**[https://handy-goshawk-3a6a33.instawp.site/](https://handy-goshawk-3a6a33.instawp.site/)**
+
+Free [InstaWP](https://instawp.com/) sites may show an interstitial splash before “Continue to Site.” Use this URL only for review or class submission unless you migrate the site to permanent hosting.
 
 ## Contents
 
 | File | Description |
 |------|-------------|
-| `hello-elementor.zip` | [Hello Elementor](https://wordpress.org/themes/hello-elementor/) theme — a lightweight starter theme optimized for Elementor. |
-| `six2eight-elements-main.zip` | Custom Elementor plugin (widgets such as project steps and before/after transformation sliders). Install and activate **after** Elementor. |
+| `hello-elementor.zip` | [Hello Elementor](https://wordpress.org/themes/hello-elementor/) theme — lightweight starter theme used with Elementor on the reference site. |
+| `six2eight-elements-main.zip` | **Six2eight Elements** (v1.0.0) — *Project Steps timeline and Transformation Slider for Elementor and Gutenberg.* In Elementor they appear under **Six2Eight Elements** (e.g. **S2E Project Steps**, **S2E Transformation Slider**). In Gutenberg they appear as **SixEight Project Steps** and **SixEight Transformation Slider**. Install and activate **after** Elementor. |
 | `elementor-400-2026-05-04.json` | Elementor template export for the page titled **Exam Elementor** (layout, sections, and widget data). |
 | `plugin.avif` | Image asset included with the project files. |
 
@@ -28,8 +36,8 @@ This folder contains deliverables for a WordPress site built with **Elementor** 
 3. **Elementor**  
    Install and activate the **Elementor** plugin from the WordPress plugin directory (or your licensed Pro package).
 
-4. **Six2Eight Elements**  
-   In **Plugins → Add New → Upload Plugin**, upload `six2eight-elements-main.zip`, install, and activate. This plugin supplies custom widgets referenced in the exported template.
+4. **Six2eight Elements**  
+   In **Plugins → Add New → Upload Plugin**, upload `six2eight-elements-main.zip`, install, and activate. This supplies the custom Elementor widgets and Gutenberg blocks used on the **Exam Elementor** / **Exam Gutenberg** demo pages.
 
 5. **Import the page template**  
    In Elementor, use **Templates → Saved Templates** (or **Tools → Import/Export**, depending on your Elementor version) to import `elementor-400-2026-05-04.json`.  
