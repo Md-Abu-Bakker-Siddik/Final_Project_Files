@@ -40,7 +40,7 @@ Free [InstaWP](https://instawp.com/) sites may show an interstitial splash befor
    In **Plugins → Add New → Upload Plugin**, upload `six2eight-elements-main.zip`, install, and activate. This supplies the custom Elementor widgets and Gutenberg blocks used on the **Exam Elementor** / **Exam Gutenberg** demo pages.
 
 5. **Import the page template**  
-   In Elementor, use **Templates → Saved Templates** (or **Tools → Import/Export**, depending on your Elementor version) to import `elementor-400-2026-05-04.json`.  
+   In Elementor, use **Templates → Saved Templates** (or **Tools → Import/Export**, depending on your Elementor version) to import `elementor-43-2026-05-06.json`.  
    Alternatively, create a new page, edit with Elementor, open the library/hamburger menu, and use **Import** if your workflow uses JSON from the editor.
 
 6. **Media and URLs**  
