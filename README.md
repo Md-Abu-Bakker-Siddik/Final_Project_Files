@@ -2,13 +2,13 @@
 
 This folder contains deliverables for a WordPress site built with **Elementor**, the **Hello Elementor** theme, and **Six2eight Elements** — a plugin that registers the same features for **Elementor** and the **block editor (Gutenberg)**.
 
-## Demo (InstaWP)
+## Demo (Pantheon)
 
-Reference build (temporary hosting, not for production traffic):
+Reference build URL:
 
-**[https://handy-goshawk-3a6a33.instawp.site/](https://handy-goshawk-3a6a33.instawp.site/)**
+**[https://dev-six2eight-technical-task.pantheonsite.io/](https://dev-six2eight-technical-task.pantheonsite.io/)**
 
-Free [InstaWP](https://instawp.com/) sites may show an interstitial splash before “Continue to Site.” Use this URL only for review or class submission unless you migrate the site to permanent hosting.
+Use this URL for review/demo access.
 
 ## Contents
 
