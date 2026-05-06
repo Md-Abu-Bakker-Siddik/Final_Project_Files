@@ -16,7 +16,7 @@ Use this URL for review/demo access.
 |------|-------------|
 | `hello-elementor.zip` | [Hello Elementor](https://wordpress.org/themes/hello-elementor/) theme — lightweight starter theme used with Elementor on the reference site. |
 | `six2eight-elements-main.zip` | **Six2eight Elements** (v1.0.0) — *Project Steps timeline and Transformation Slider for Elementor and Gutenberg.* In Elementor they appear under **Six2Eight Elements** (e.g. **S2E Project Steps**, **S2E Transformation Slider**). In Gutenberg they appear as **SixEight Project Steps** and **SixEight Transformation Slider**. Install and activate **after** Elementor. |
-| `elementor-400-2026-05-04.json` | Elementor template export for the page titled **Exam Elementor** (layout, sections, and widget data). |
+| `elementor-43-2026-05-06.json` | Elementor template export for the page titled **Exam Elementor** (layout, sections, and widget data). |
 | `plugin.avif` | Image asset included with the project files. |
 
 ## Requirements
