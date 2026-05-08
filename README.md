@@ -23,7 +23,7 @@ Implemented with:
 | File | Description |
 |------|-------------|
 | `six2eight-elements-main.zip` | Custom plugin containing the Elementor widgets and Gutenberg blocks used for this task. |
-| `elementor-81-2026-05-08.json` | Elementor template export used for the Elementor implementation page. |
+| `elementor-100-2026-05-08.json` | Elementor template export used for the Elementor implementation page. |
 | `README.md` | Project documentation and setup instructions. |
 
 ## Requirements
@@ -39,7 +39,7 @@ Implemented with:
 2. Install and activate **Hello Elementor** theme from **Appearance > Themes > Add New**.
 3. Install and activate Elementor.
 4. Upload and activate `six2eight-elements-main.zip` from **Plugins > Add New > Upload Plugin**.
-5. Import `elementor-81-2026-05-08.json` from Elementor templates/import tools.
+5. Import `elementor-100-2026-05-08.json` from Elementor templates/import tools.
 6. Create/verify pages:
    - `Exam Elementor` (`/exam-elementor/`)
    - `Exam Gutenberg` (`/exam-gutenberg/`)
