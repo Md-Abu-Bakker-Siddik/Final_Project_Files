@@ -1,60 +1,54 @@
 # Final Project Files
 
-This folder contains deliverables for a WordPress site built with **Elementor**, the **Hello Elementor** theme, and **Six2eight Elements** — a plugin that registers the same features for **Elementor** and the **block editor (Gutenberg)**.
+This folder contains the technical task deliverables for the Senior WordPress Developer evaluation.
 
-## Demo (Pantheon)
+Implemented sections:
+- **Project Steps**
+- **Transformation Slider**
 
-Reference build URL:
+Implemented with:
+- **Elementor (WordPress)**
+- **Gutenberg (block-based/custom block approach via plugin)**
 
-**[https://dev-six2eight-technical-task.pantheonsite.io/](https://dev-six2eight-technical-task.pantheonsite.io/)**
+## Live Demo URLs (Pantheon)
 
-Use this URL for review/demo access.
+- Elementor page: [https://dev-six2eight-technical-task.pantheonsite.io/exam-elementor/](https://dev-six2eight-technical-task.pantheonsite.io/exam-elementor/)
+- Gutenberg page: [https://dev-six2eight-technical-task.pantheonsite.io/exam-gutenberg/](https://dev-six2eight-technical-task.pantheonsite.io/exam-gutenberg/)
+- Root URL: [https://dev-six2eight-technical-task.pantheonsite.io/](https://dev-six2eight-technical-task.pantheonsite.io/)
 
-## Contents
+> Note: The site is hosted on a free/sandbox environment. If a warning/interstitial page appears, click **Continue** once to access the pages.
+
+## Included Files
 
 | File | Description |
 |------|-------------|
-| `hello-elementor.zip` | [Hello Elementor](https://wordpress.org/themes/hello-elementor/) theme — lightweight starter theme used with Elementor on the reference site. |
-| `six2eight-elements-main.zip` | **Six2eight Elements** (v1.0.0) — *Project Steps timeline and Transformation Slider for Elementor and Gutenberg.* In Elementor they appear under **Six2Eight Elements** (e.g. **S2E Project Steps**, **S2E Transformation Slider**). In Gutenberg they appear as **SixEight Project Steps** and **SixEight Transformation Slider**. Install and activate **after** Elementor. |
-| `elementor-43-2026-05-06.json` | Elementor template export for the page titled **Exam Elementor** (layout, sections, and widget data). |
-| `plugin.avif` | Image asset included with the project files. |
+| `six2eight-elements-main.zip` | Custom plugin containing the Elementor widgets and Gutenberg blocks used for this task. |
+| `elementor-81-2026-05-08.json` | Elementor template export used for the Elementor implementation page. |
+| `README.md` | Project documentation and setup instructions. |
 
 ## Requirements
 
-- WordPress 6.x (or version compatible with your Elementor build)
-- **Elementor** (and Elementor Pro if your template relies on Pro features — check your export)
-- PHP and MySQL/MariaDB per WordPress hosting standards
+- WordPress 6.x
+- Elementor (latest compatible version)
+- PHP/MySQL or MariaDB environment compatible with WordPress
 
-## Installation overview
+## Setup Instructions
 
-1. **WordPress**  
-   Install WordPress on your host or local environment (e.g. Local, XAMPP, or your provider’s installer).
+1. Install WordPress on local or hosting environment.
+2. Install and activate Elementor.
+3. Upload and activate `six2eight-elements-main.zip` from **Plugins > Add New > Upload Plugin**.
+4. Import `elementor-81-2026-05-08.json` from Elementor templates/import tools.
+5. Create/verify pages:
+   - `Exam Elementor` (`/exam-elementor/`)
+   - `Exam Gutenberg` (`/exam-gutenberg/`)
+6. Re-assign media assets if any image URL is broken after import.
 
-2. **Theme**  
-   In **Appearance → Themes → Add New → Upload Theme**, upload `hello-elementor.zip`, install, and activate.
+## Submission References
 
-3. **Elementor**  
-   Install and activate the **Elementor** plugin from the WordPress plugin directory (or your licensed Pro package).
+- GitHub repository: [https://github.com/Md-Abu-Bakker-Siddik/Final_Project_Files](https://github.com/Md-Abu-Bakker-Siddik/Final_Project_Files)
+- Loom process video: [https://www.loom.com/share/6c1870d6187d41348c722343eb30911f](https://www.loom.com/share/6c1870d6187d41348c722343eb30911f)
+- Figma source file: [https://drive.google.com/file/d/1mlCe-f3cTjfHVvM1DZ1Im3_CDvsK3HfU/view?usp=sharing](https://drive.google.com/file/d/1mlCe-f3cTjfHVvM1DZ1Im3_CDvsK3HfU/view?usp=sharing)
 
-4. **Six2eight Elements**  
-   In **Plugins → Add New → Upload Plugin**, upload `six2eight-elements-main.zip`, install, and activate. This supplies the custom Elementor widgets and Gutenberg blocks used on the **Exam Elementor** / **Exam Gutenberg** demo pages.
+## Design Note
 
-5. **Import the page template**  
-   In Elementor, use **Templates → Saved Templates** (or **Tools → Import/Export**, depending on your Elementor version) to import `elementor-43-2026-05-06.json`.  
-   Alternatively, create a new page, edit with Elementor, open the library/hamburger menu, and use **Import** if your workflow uses JSON from the editor.
-
-6. **Media and URLs**  
-   The JSON export references images from a local development URL (for example paths under `wp-content/uploads/...`). After import, **re-assign images** in the Media Library or in each widget so links point to your live site. Broken images until you replace them are expected.
-
-## Version notes
-
-- The Elementor export file reports `"version":"0.4"` in its metadata; your Elementor version should be recent enough to import this format.
-- If import fails, update WordPress, Elementor, and the Six2Eight plugin to their latest compatible versions and try again.
-
-## Repository
-
-Line endings for text files are normalized per `.gitattributes` (`* text=auto`).
-
----
-
-If you add more themes, plugins, or exports, extend the **Contents** table so the bundle stays easy to hand off or deploy.
+The implementation follows the provided Figma layout, spacing, and responsiveness as closely as possible. If the exact original font is unavailable in the runtime environment, the closest matching web font is used while preserving visual hierarchy and structure.
