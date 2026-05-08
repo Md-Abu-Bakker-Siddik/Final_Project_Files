@@ -14,9 +14,9 @@ Implemented with:
 
 - Elementor page: [https://dev-six2eight-technical-task.pantheonsite.io/exam-elementor/](https://dev-six2eight-technical-task.pantheonsite.io/exam-elementor/)
 - Gutenberg page: [https://dev-six2eight-technical-task.pantheonsite.io/exam-gutenberg/](https://dev-six2eight-technical-task.pantheonsite.io/exam-gutenberg/)
-- Root URL: [https://dev-six2eight-technical-task.pantheonsite.io/](https://dev-six2eight-technical-task.pantheonsite.io/)
+- Root URL (optional navigation): [https://dev-six2eight-technical-task.pantheonsite.io/](https://dev-six2eight-technical-task.pantheonsite.io/)
 
-> Note: The site is hosted on a free/sandbox environment. If a warning/interstitial page appears, click **Continue** once to access the pages.
+> Note: The site is hosted on a free/sandbox environment. If a warning/interstitial page appears, click **Continue** once to access the demo pages.
 
 ## Included Files
 
@@ -29,19 +29,26 @@ Implemented with:
 ## Requirements
 
 - WordPress 6.x
+- Hello Elementor theme
 - Elementor (latest compatible version)
 - PHP/MySQL or MariaDB environment compatible with WordPress
 
 ## Setup Instructions
 
 1. Install WordPress on local or hosting environment.
-2. Install and activate Elementor.
-3. Upload and activate `six2eight-elements-main.zip` from **Plugins > Add New > Upload Plugin**.
-4. Import `elementor-81-2026-05-08.json` from Elementor templates/import tools.
-5. Create/verify pages:
+2. Install and activate **Hello Elementor** theme from **Appearance > Themes > Add New**.
+3. Install and activate Elementor.
+4. Upload and activate `six2eight-elements-main.zip` from **Plugins > Add New > Upload Plugin**.
+5. Import `elementor-81-2026-05-08.json` from Elementor templates/import tools.
+6. Create/verify pages:
    - `Exam Elementor` (`/exam-elementor/`)
    - `Exam Gutenberg` (`/exam-gutenberg/`)
-6. Re-assign media assets if any image URL is broken after import.
+7. Re-assign media assets if any image URL is broken after import.
+
+## Theme Note
+
+This project is intended to run on **Hello Elementor**. The visual/styling layer also includes `theme.json`-based adjustments in the theme setup.  
+If your environment uses a different active theme, typography/spacing may not match the expected result exactly.
 
 ## Submission References
 
