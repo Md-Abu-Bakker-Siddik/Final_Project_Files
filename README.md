@@ -16,7 +16,7 @@ Implemented with:
 - Gutenberg page: [https://dev-six2eight-technical-task.pantheonsite.io/exam-gutenberg/](https://dev-six2eight-technical-task.pantheonsite.io/exam-gutenberg/)
 - Root URL (optional navigation): [https://dev-six2eight-technical-task.pantheonsite.io/](https://dev-six2eight-technical-task.pantheonsite.io/)
 
-> Note: The site is hosted on a free/sandbox environment. If a warning/interstitial page appears, click **Continue** once to access the demo pages.
+> **NOTE:** **The site is hosted on a free/sandbox environment. If a warning/interstitial page appears, click _Continue_ once to access the demo pages.**
 
 ## Included Files
 
